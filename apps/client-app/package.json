@@ -9,24 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@repo/ui": "*",
     "@repo/database": "*",
+    "@repo/ui": "*",
+    "next": "14.1.4",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.1.4"
+    "react-icons": "^5.0.1"
   },
   "devDependencies": {
     "@repo/eslint-config": "*",
-    "@repo/typescript-config": "*",
     "@repo/tailwind-config": "*",
-    "typescript": "^5",
+    "@repo/typescript-config": "*",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.4",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.4"
+    "typescript": "^5"
   }
 }
